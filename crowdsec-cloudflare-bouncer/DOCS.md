@@ -29,6 +29,7 @@ Api key for 'cs-cloudflare-bouncer':
 Please keep this key since you will not be able to retrieve it!
 ```
 
+
 The API Key and API URL need to be shared from the CrowdSec add-on to the Bouncer add-on. These details can be added through the Home Assistant UI `Settings > Add-Ons > CrowdSec cloudflare Bouncer > Configuration`, or by editing `/config/.storage/crowdsec/config/local_api_configuration.yaml` directly. 
 
 The API URL should be input as: `http://<crowdsec-terminal-hostname>:8080/`
