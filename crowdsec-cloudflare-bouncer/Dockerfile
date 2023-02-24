@@ -7,6 +7,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     apt-get install -y -q --install-recommends --no-install-suggests nano tzdata procps curl iputils-ping telnet
 
+
 RUN curl -s https://packagecloud.io/install/repositories/crowdsec/crowdsec/script.deb.sh | bash
 
 RUN apt-get update
