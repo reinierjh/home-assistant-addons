@@ -1,4 +1,4 @@
-# Home Assistant Add-ons: Kris Bogaerts
+# Home Assistant Add-ons: Reinier Jan Hilbrink
 
 
 ![Supports aarch64 Architecture][aarch64-shield]
