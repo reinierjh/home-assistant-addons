@@ -1,15 +1,15 @@
 name: "Crowdsec Cloudflare Bouncer"
 description: "Crowdsec Cloudflare bouncer"
-url: "https://github.com/krisbogaerts/home-assistant-addons/tree/main/crowdsec-cloudflare-bouncer/DOCS.md"
-codenotary: k@bogaerts.org
-version: "v0.0.3"
+url: "https://github.com/reinierjh/home-assistant-addons/tree/main/crowdsec-cloudflare-bouncer/DOCS.md"
+codenotary: github@hilbrink.eu
+version: "v0.0.1"
 slug: crowdsec-cloudflare-bouncer
 init: false
 auth_api: true
 arch:
   - aarch64
 
-image: "ghcr.io/krisbogaerts/{arch}-addon-crowdsec-cloudflare-bouncer"
+image: "ghcr.io/reinierjh/{arch}-addon-crowdsec-cloudflare-bouncer"
 options:
   api_url: "http://424ccef4-crowdsec:8080/"
   api_key: ""
